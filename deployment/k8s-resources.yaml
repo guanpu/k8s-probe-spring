@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: k8s-seamless-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: k8s-seamless-app
